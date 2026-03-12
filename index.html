@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Solar Energy Solutions</title>
+<title>Green Energy Solar</title>
 
 <script src="https://cdn.tailwindcss.com"></script>
 
@@ -13,23 +13,22 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 
 </head>
 
-<body class="bg-gray-50 text-gray-800">
+<body class="bg-green-50 text-gray-800">
 
 <!-- NAVBAR -->
-<nav class="bg-white shadow fixed w-full z-50">
+<nav class="fixed w-full z-50 bg-green-900/80 backdrop-blur text-white">
 
-<div class="max-w-7xl mx-auto px-4">
+<div class="max-w-7xl mx-auto px-6">
 
 <div class="flex justify-between items-center h-16">
 
 <!-- LOGO -->
 <div class="flex items-center space-x-2">
 
-<img src="https://cdn-icons-png.flaticon.com/512/414/414927.png"
-class="w-8 h-8">
+<div class="w-8 h-8 bg-green-500 rounded-full"></div>
 
-<span class="font-bold text-xl text-green-600">
-SolarEnergy
+<span class="font-bold text-lg">
+GreenEnergy
 </span>
 
 </div>
@@ -37,17 +36,16 @@ SolarEnergy
 <!-- MENU DESKTOP -->
 <div class="hidden md:flex space-x-8">
 
-<a href="#home" class="hover:text-green-600">Home</a>
-<a href="#services" class="hover:text-green-600">Services</a>
-<a href="#gallery" class="hover:text-green-600">Gallery</a>
+<a href="#home" class="hover:text-green-300">Home</a>
+<a href="#services" class="hover:text-green-300">Services</a>
+<a href="#gallery" class="hover:text-green-300">Gallery</a>
+<a href="#contact" class="hover:text-green-300">Contact</a>
 
 </div>
 
-<!-- HAMBURGER -->
-<button id="menu-btn" class="md:hidden text-xl">
-
-<i class="fas fa-bars"></i>
-
+<!-- BURGER -->
+<button id="menu-btn" class="md:hidden text-2xl">
+☰
 </button>
 
 </div>
@@ -55,20 +53,21 @@ SolarEnergy
 </div>
 
 <!-- MOBILE MENU -->
-<div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+<div id="mobile-menu" class="hidden bg-green-900 text-white">
 
-<a href="#home" class="block px-4 py-3 hover:bg-gray-100">Home</a>
-<a href="#services" class="block px-4 py-3 hover:bg-gray-100">Services</a>
-<a href="#gallery" class="block px-4 py-3 hover:bg-gray-100">Gallery</a>
+<a href="#home" class="block px-6 py-3 border-b border-green-700">Home</a>
+<a href="#services" class="block px-6 py-3 border-b border-green-700">Services</a>
+<a href="#gallery" class="block px-6 py-3 border-b border-green-700">Gallery</a>
+<a href="#contact" class="block px-6 py-3">Contact</a>
 
 </div>
 
 </nav>
 
-<!-- HERO -->
-<section id="home" class="pt-16">
+<!-- HERO SLIDER -->
+<section id="home">
 
-<div class="relative h-[520px] overflow-hidden">
+<div class="relative w-full h-screen overflow-hidden">
 
 <!-- SLIDE 1 -->
 <div class="slide absolute w-full h-full">
@@ -76,20 +75,20 @@ SolarEnergy
 <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231"
 class="w-full h-full object-cover">
 
-<div class="absolute inset-0 bg-black/50 flex items-center justify-center text-white text-center">
+<div class="absolute inset-0 bg-green-900/60 flex items-center justify-center text-center text-white">
 
 <div>
 
-<h1 class="text-4xl font-bold mb-4">
-Solusi Solar Panel Profesional
+<h1 class="text-5xl font-bold mb-4">
+Energi Matahari Masa Depan
 </h1>
 
-<p class="mb-6">
-Hemat biaya listrik dengan energi matahari.
+<p class="mb-6 text-lg">
+Solusi energi ramah lingkungan untuk rumah dan bisnis
 </p>
 
-<a href="https://wa.me/6281234567890"
-class="bg-green-600 px-6 py-3 rounded-lg hover:bg-green-700">
+<a href="#contact"
+class="bg-green-500 px-6 py-3 rounded-lg hover:bg-green-600">
 
 Kontak Kami
 
@@ -107,10 +106,10 @@ Kontak Kami
 <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7"
 class="w-full h-full object-cover">
 
-<div class="absolute inset-0 bg-black/50 flex items-center justify-center text-white text-center">
+<div class="absolute inset-0 bg-green-900/60 flex items-center justify-center text-white text-center">
 
-<h1 class="text-4xl font-bold">
-Energi Bersih Masa Depan
+<h1 class="text-5xl font-bold">
+Energi Bersih Untuk Masa Depan
 </h1>
 
 </div>
@@ -123,10 +122,10 @@ Energi Bersih Masa Depan
 <img src="https://images.unsplash.com/photo-1497440001374-f26997328c1b"
 class="w-full h-full object-cover">
 
-<div class="absolute inset-0 bg-black/50 flex items-center justify-center text-white text-center">
+<div class="absolute inset-0 bg-green-900/60 flex items-center justify-center text-white text-center">
 
-<h1 class="text-4xl font-bold">
-Investasi Energi Jangka Panjang
+<h1 class="text-5xl font-bold">
+Hemat Listrik Hingga 70%
 </h1>
 
 </div>
@@ -142,64 +141,58 @@ Investasi Energi Jangka Panjang
 
 <div class="max-w-7xl mx-auto px-6 text-center">
 
-<h2 class="text-3xl font-bold mb-12">
+<h2 class="text-3xl font-bold text-green-800 mb-12">
 Layanan Kami
 </h2>
 
 <div class="grid md:grid-cols-3 gap-8">
 
-<div class="bg-white rounded-xl shadow overflow-hidden">
+<div class="bg-white rounded-xl shadow-lg overflow-hidden">
 
 <img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc"
 class="w-full h-48 object-cover">
 
 <div class="p-6">
 
-<h3 class="text-xl font-semibold mb-2">
+<h3 class="text-xl font-semibold text-green-700 mb-2">
 Instalasi Solar Panel
 </h3>
 
-<p>
-Pemasangan solar panel untuk rumah dan bisnis.
-</p>
+<p>Pemasangan panel surya profesional.</p>
 
 </div>
 
 </div>
 
-<div class="bg-white rounded-xl shadow overflow-hidden">
+<div class="bg-white rounded-xl shadow-lg overflow-hidden">
 
 <img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7"
 class="w-full h-48 object-cover">
 
 <div class="p-6">
 
-<h3 class="text-xl font-semibold mb-2">
+<h3 class="text-xl font-semibold text-green-700 mb-2">
 Maintenance System
 </h3>
 
-<p>
-Perawatan sistem solar panel.
-</p>
+<p>Perawatan dan monitoring sistem solar.</p>
 
 </div>
 
 </div>
 
-<div class="bg-white rounded-xl shadow overflow-hidden">
+<div class="bg-white rounded-xl shadow-lg overflow-hidden">
 
 <img src="https://images.unsplash.com/photo-1581090700227-1e37b190418e"
 class="w-full h-48 object-cover">
 
 <div class="p-6">
 
-<h3 class="text-xl font-semibold mb-2">
+<h3 class="text-xl font-semibold text-green-700 mb-2">
 Konsultasi Energi
 </h3>
 
-<p>
-Analisa kebutuhan listrik terbaik.
-</p>
+<p>Analisa kebutuhan listrik dan energi.</p>
 
 </div>
 
@@ -212,33 +205,33 @@ Analisa kebutuhan listrik terbaik.
 </section>
 
 <!-- GALLERY -->
-<section id="gallery" class="bg-gray-100 py-20">
+<section id="gallery" class="bg-green-100 py-20">
 
 <div class="max-w-7xl mx-auto px-6 text-center">
 
-<h2 class="text-3xl font-bold mb-12">
+<h2 class="text-3xl font-bold text-green-800 mb-12">
 Gallery Proyek
 </h2>
 
-<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="grid md:grid-cols-3 gap-6">
 
-<img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231" class="w-full h-64 object-cover rounded-lg shadow">
+<img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231"
+class="w-full h-64 object-cover rounded-lg shadow">
 
-<img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7" class="w-full h-64 object-cover rounded-lg shadow">
+<img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7"
+class="w-full h-64 object-cover rounded-lg shadow">
 
-<img src="https://images.unsplash.com/photo-1497440001374-f26997328c1b" class="w-full h-64 object-cover rounded-lg shadow">
+<img src="https://images.unsplash.com/photo-1497440001374-f26997328c1b"
+class="w-full h-64 object-cover rounded-lg shadow">
 
-<img src="https://images.unsplash.com/photo-1581090700227-1e37b190418e" class="w-full h-64 object-cover rounded-lg shadow">
+<img src="https://images.unsplash.com/photo-1581090700227-1e37b190418e"
+class="w-full h-64 object-cover rounded-lg shadow">
 
-<img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc" class="w-full h-64 object-cover rounded-lg shadow">
+<img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc"
+class="w-full h-64 object-cover rounded-lg shadow">
 
-<img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7" class="w-full h-64 object-cover rounded-lg shadow">
-
-<img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231" class="w-full h-64 object-cover rounded-lg shadow">
-
-<img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7" class="w-full h-64 object-cover rounded-lg shadow">
-
-<img src="https://images.unsplash.com/photo-1497440001374-f26997328c1b" class="w-full h-64 object-cover rounded-lg shadow">
+<img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7"
+class="w-full h-64 object-cover rounded-lg shadow">
 
 </div>
 
@@ -246,45 +239,32 @@ Gallery Proyek
 
 </section>
 
-<!-- FOOTER -->
-<footer class="bg-gray-900 text-gray-400 py-4 sticky bottom-0">
+<!-- CONTACT -->
+<section id="contact" class="py-20 bg-white">
 
-<!--<div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 h-16 ">
--->
-<div class="grid grid-cols-1 md:grid-cols-3 text-center md:text-left h-8">
-<!-- LOGO -->
-<div>
+<div class="max-w-4xl mx-auto text-center px-6">
 
-<h3 class="text-white text-xl font-bold">
-SolarEnergy
-</h3>
+<h2 class="text-3xl font-bold text-green-800 mb-6">
+Hubungi Kami
+</h2>
 
-<p>
-Solusi energi terbarukan untuk rumah dan bisnis.
+<p class="mb-6">
+Konsultasi gratis untuk instalasi solar panel.
 </p>
 
-</div>
+<div class="flex justify-center space-x-8 text-3xl">
 
-<!-- CONTACT -->
-<div>
-
-<h4 class="text-white font-semibold">
-Kontak
-</h4>
-
-<div class="">
-
-<a href="mailto:info@solarenergy.com" class="flex items-center space-x-2 hover:text-white">
+<a href="mailto:info@greenenergy.com"
+class="text-green-700 hover:text-green-900">
 
 <i class="fas fa-envelope"></i>
-<span>info@solarenergy.com</span>
 
 </a>
 
-<a href="https://wa.me/6281234567890" class="flex items-center space-x-2 hover:text-green-400">
+<a href="https://wa.me/6281234567890"
+class="text-green-600 hover:text-green-800">
 
 <i class="fab fa-whatsapp"></i>
-<span>+62 812 3456 7890</span>
 
 </a>
 
@@ -292,46 +272,23 @@ Kontak
 
 </div>
 
-<!-- ADDRESS -->
-<div>
-
-<h4 class="text-white font-semibold mb-1">
-Alamat
-</h4>
-
-<p>
-Jl. Energi Matahari No.88  
-Jakarta Selatan  
-Indonesia
-</p>
-
-</div>
-
-</div>
-
-<div class="text-center text-sm text-gray-500 mt-10">
-
-© 2026 SolarEnergy. All rights reserved.
-
-</div>
-
-</footer>
+</section>
 
 <script>
 
 const btn = document.getElementById("menu-btn")
 const menu = document.getElementById("mobile-menu")
 
-btn.addEventListener("click",()=>{
+btn.onclick = () => {
 menu.classList.toggle("hidden")
-})
+}
 
 let slides = document.querySelectorAll(".slide")
 let index = 0
 
 function showSlide(){
 
-slides.forEach(slide=>slide.classList.add("hidden"))
+slides.forEach(slide => slide.classList.add("hidden"))
 
 slides[index].classList.remove("hidden")
 
@@ -339,7 +296,7 @@ index = (index + 1) % slides.length
 
 }
 
-setInterval(showSlide,4000)
+setInterval(showSlide,5000)
 
 </script>
 
